@@ -1,0 +1,42 @@
+{
+  "name": "apollostation-js-starter",
+  "version": "0.1.0",
+  "description": "Boilerplate for javascript modules",
+  "main": "index.js",
+  "repository": "https://github.com/ApolloStationIO/apollostation-js-starter",
+  "author": "Yatharth K <yatharth01@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "bump": "standard-version",
+    "bundle": "microbundle",
+    "lint": "xo",
+    "test": "xo && jest --coverage",
+    "test:js": "jest",
+    "test:js:watch": "jest --watch",
+    "release": "npm run build -s && npm run bump && git push --follow-tags origin master && npm publish"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-stage-3": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "babel-polyfill": "^6.26.0",
+    "documentation": "^11.0.1",
+    "jest": "^24.8.0",
+    "microbundle": "^0.11.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "useTabs": false,
+    "semi": false,
+    "space": 2,
+    "prettier": true,
+    "globals": [
+      "window"
+    ],
+    "ignore": [
+      "test"
+    ]
+  }
+}

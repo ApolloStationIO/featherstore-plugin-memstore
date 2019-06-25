@@ -1,6 +1,6 @@
 {
   "name": "featherstore-plugin-memstore",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "Tiny, 200B in-memory store for use with featherstore",
   "source": "./src/index.js",
   "main": "dist/featherstore-plugin-memstore.js",

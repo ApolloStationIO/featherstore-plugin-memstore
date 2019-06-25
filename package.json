@@ -1,9 +1,12 @@
 {
-  "name": "apollostation-js-starter",
-  "version": "0.1.0",
-  "description": "Boilerplate for javascript modules",
-  "main": "index.js",
-  "repository": "https://github.com/ApolloStationIO/apollostation-js-starter",
+  "name": "featherstore-plugin-memstore",
+  "version": "0.1.1",
+  "description": "Tiny, 200B in-memory store for use with featherstore",
+  "source": "./src/index.js",
+  "main": "dist/featherstore-plugin-memstore.js",
+  "module": "dist/featherstore-plugin-memstore.m.js",
+  "umd:main": "dist/featherstore-plugin-memstore.umd.js",
+  "repository": "https://github.com/ApolloStationIO/featherstore-plugin-memstore",
   "author": "Yatharth K <yatharth01@gmail.com>",
   "license": "MIT",
   "scripts": {
